@@ -19,7 +19,7 @@ import traceback
 
 """
 EXAMPLE: 
-python batch_exp.py -v 0.0 0.001 0.005 -d gumbel -r 1 -g 3 -c fp_config.yaml
+python batch_exp.py -v 0.0 0.0001 0.0005 0.001 -d sr_single -r 1 -g 3 -c sr_config.yaml
 """
 
 VAL_CFG_PATH = "./sr_models/valsets4x.yaml"
